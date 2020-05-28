@@ -1,0 +1,22 @@
+.card-container {
+  background-color: #eee;
+  display: flex;
+  direction: row;
+  max-width: 400px;
+  height: 150px;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.user-picture {
+  height: 100px;
+  border-radius: 20px;
+}
+
+.information-container {
+  margin-left: 20px;
+  color: #5c8dd6;
+}
