@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 import UserCard from "../../components/UserCard";
 
@@ -14,7 +13,7 @@ class Users extends Component {
         email: "joao.silva@gmail.com",
         foto:
           "https://abrilguiadoestudante.files.wordpress.com/2016/08/estudante.jpg?quality=100&strip=info&w=680&h=453&crop=1",
-        nascimento: "19/02/2002"
+        nascimento: "19 de fevereiro de 2002"
       },
       {
         id: 2,
@@ -24,7 +23,7 @@ class Users extends Component {
         email: "maria.rodrigues@gmail.com",
         foto:
           "https://www.cref8.org.br/wp-content/uploads/2018/11/estudante-alia-estudos-com-hipnose-para-ter-mais-concentracao-no-enem-867x578.jpg",
-        nascimento: "20/03/2001"
+        nascimento: "20 de março de 2001"
       },
       {
         id: 3,
@@ -34,7 +33,7 @@ class Users extends Component {
         email: "juliocosta@gmail.com",
         foto:
           "https://eduportugal.eu/wp-content/uploads/2019/07/Capa-Guia-do-estudante-brasileiro.jpg",
-        nascimento: "30/04/1998"
+        nascimento: "30 de abril de 1998"
       },
       {
         id: 4,
@@ -44,7 +43,7 @@ class Users extends Component {
         email: "carolina.almeida@gmail.com",
         foto:
           "https://santosbancarios.com.br/uploads/images/2017/12/bancario-estudante-tem-direito-a-falta-abonada-em-dia-de-prova-1512564874.jpg",
-        nascimento: "02/05/1996"
+        nascimento: "2 de maio de 1996"
       },
       {
         id: 5,
@@ -54,7 +53,7 @@ class Users extends Component {
         email: "juliana.maia@gmail.com",
         foto:
           "https://www.documentodoestudante.com.br/blog/wp-content/uploads/2019/03/cie-documento-do-estudante.jpg",
-        nascimento: "15/01/2000"
+        nascimento: "15 de janeiro de 2000"
       }
     ];
 
@@ -65,7 +64,6 @@ class Users extends Component {
       <div>
         <div>
           <h1>Users</h1>
-          <Link to="/details">Ir para detalhes</Link>
         </div>
         {listUsers}
       </div>
