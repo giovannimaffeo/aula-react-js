@@ -10,7 +10,7 @@ class Router extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Users} />
-          <Route path="/details/:nome/:email" component={Details} />
+          <Route path="/details" component={Details} />
         </Switch>
       </BrowserRouter>
     );

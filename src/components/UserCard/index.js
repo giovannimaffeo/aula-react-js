@@ -6,7 +6,12 @@ import "./styles.css";
 class UserCard extends Component {
   render() {
     return (
-      <Link to={`/details/${this.props.data.nome}/${this.props.data.email}`}>
+      <Link
+        to={{
+          pathname: "/details",
+          state: this.props.data
+        }}
+      >
         <div className="card-container">
           <div>
             <img
