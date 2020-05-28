@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
-  );
+import Routes from "./routes";
+
+class App extends Component {
+  render() {
+    return <Routes />;
+  }
 }
 
 export default App;
